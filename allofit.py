@@ -5,6 +5,7 @@ def main():
     #call all functions to play the number of games specified
     dice = first_roll()
     output_dice(dice)
+    count_frequency(dice, number)
     
 def first_roll():
     #no arguments
@@ -42,6 +43,16 @@ def output_dice(dice):
         print("Die	", format(die_number, '2'), ": ", dice[index], sep='')
         die_number += 1
         index += 1
+
+def find_mode(dice):
+    #accepts a list of dice
+    #uses count_frequency(dice, number) to determine how often each number occurs
+    #returns mode
+    pass
     
 def count_frequency(dice, number):
-    
+    dice.sort()
+    print(dice)
+    index = 0
+    if dice[index] == dice[index+1]:
+        print("poop")
