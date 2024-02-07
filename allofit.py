@@ -4,7 +4,7 @@ def main():
     #no arguments
     #call all functions to play the number of games specified
     dice = first_roll()
-    output_dice(dice)
+    number = output_dice(dice)
     count_frequency(dice, number)
     
 def first_roll():
@@ -38,11 +38,14 @@ def output_dice(dice):
     
     die_number = 1
     index = 0
+    number = 1
     
     for x in range(len(dice)):
         print("Die	", format(die_number, '2'), ": ", dice[index], sep='')
         die_number += 1
         index += 1
+    
+    return number
 
 def find_mode(dice):
     #accepts a list of dice
@@ -53,6 +56,315 @@ def find_mode(dice):
 def count_frequency(dice, number):
     dice.sort()
     print(dice)
+    print(number)
     index = 0
-    if dice[index] == dice[index+1]:
-        print("poop")
+    
+    #searches for ones
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    #searches for 11 digits same
+    number = 1
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+    
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+        
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+        
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+        
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+        
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+        
+    #ssearch for 10 digits same
+    
+    
+    
+    
+    
+    
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number:
+        print("The mode is ", number)
+    
+    #searches for twos
+    
+    number += 1
+    print(number)
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number:
+        print("The mode is ", number)
+    
+    #searches for threes
+    
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number:
+        print("The mode is ", number)
+    
+    #searches for fours
+    
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number:
+        print("The mode is ", number)
+    
+    #searches for fives
+    
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number:
+        print("The mode is ", number)
+    
+    #searches for sixes
+
+    number += 1
+    
+    if dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number and dice[index+11] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number and dice[index+10] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number and dice[index+9] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number and dice[index+8] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number and dice[index+7] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number and dice[index+6] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number and dice[index+5] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number and dice[index+4] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number and dice[index+3] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number and dice[index+1] == number and dice[index+2] == number:
+        print("The mode is ", number)
+    
+    elif dice[index] == number and dice[index+1] == number:
+        print("The mode is ", number)
+        
+    elif dice[index] == number:
+        print("The mode is ", number)
+        
+def fqm():
+    amount = 0
+    current = 0
+    word = 120
+    for die in dice:
+        if die == number:
+            amount = amount + 1
+    return amount
+
+def fart(dice):
+    pass
